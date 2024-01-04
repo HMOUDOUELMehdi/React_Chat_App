@@ -1,0 +1,488 @@
+   
+.home{
+    /* height: 100vh; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .container{
+      border: 1px solid wheat;
+      border-radius: 10px;
+      width: 100%;
+      height: 100%;
+      display: flex; 
+      overflow: hidden;
+  }
+  .Sidebar{
+      flex: 1;
+      background-color: #eeeeee;
+         
+  }
+  
+  .chat{
+      flex:2;
+      background-color: antiquewhite;
+     
+      
+  }
+  
+  .AddFriend{
+      background-color: #eeeeee;
+      flex: 0.8;
+       
+  }
+  
+  .AddFriend .chats :hover{
+      background-color: #77cee9;
+  }
+  
+  
+  
+  .Allfreind{
+      color: #fcfcfd;
+      font-size: 30px;
+      font-weight: bold;
+      background-color: #77cee9;
+      font-style: italic;
+      height: 70px;
+      text-align: center;
+      
+  }
+  
+  .chatInfo{
+      height: 70px;
+      background-color: #77cee9;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      color: rgb(255, 254, 254);
+      font-weight: bold;
+      font-size: large;
+  }
+  
+  .chatInfo{
+      display: flex;
+      gap: 10px;
+  }
+  
+  .chatInfo img{
+      height: 25px;
+      cursor: pointer;
+      padding: 2px;
+      border-radius: 50%;
+  }
+  
+  .navbar{
+      display: flex;
+      align-items: center;
+      background-color: #77cee9;
+      height:70px ;
+      padding: 10px;
+      justify-content: space-between;
+      color: rgb(255, 255, 255);
+  }
+  
+  .navbar img {
+      background-color: aquamarine;
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+  
+  .navbar button{
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      border: 1px solid aliceblue;
+      width: 100px;
+      margin-top: 10px;
+  }
+  
+  
+  .logo{
+      font-weight: bold;
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      /* background-color: #36c6f6; */
+      padding: 10px;
+      margin-left: -10px;
+      color: rgb(255, 255, 255);
+   
+  }
+  .user{
+      display: flex;
+      gap: 10px;
+  }
+  
+  .search{
+      border-bottom: 3px solid rgb(0, 0, 0);  
+  }
+  
+  .searchForm{
+       padding: 4px;
+  }
+  
+  .searchForm input::placeholder{
+      color: rgb(0, 0, 0);
+  }
+  .searchForm input{
+      background-color: transparent;
+      border: none;
+      color: rgb(0, 0, 0);
+      outline: none;
+  
+  }
+  
+  .userChat{
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        
+  }
+  .userChat:hover{
+        background-color: #77cee9;
+  }
+  
+  .userChat img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+  }
+  
+  .userChatInfo span{
+      font-size: 18px;
+      font-weight: 500;
+  }
+  
+  .userChatInfo p{
+      font-size: 14px;
+      color: rgb(0, 0, 0);
+  }
+  
+  .messages {
+      background-color: #ddddf7;
+      padding: 10px;
+      height: calc(100% - 160px);
+      overflow-y: scroll;
+      height: 84vh;
+  }
+  
+  .input{
+      height: 50px;
+      background-color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .input input {
+      width: 100%;
+      border: none;
+      outline: none;
+      color: rgb(45, 44, 44);
+      font-size: 18px;
+  }
+  
+  .send{
+      display:flex ; 
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+       
+      margin-left: auto;
+  }
+  
+  .send img {
+      height: 24px;
+      cursor: pointer;
+  }
+  
+  .send button {
+      border: none;
+      padding: 10px 15px;
+      color: #000000;
+      background-color: #77cee9;
+      border-radius: 3px;
+      width: 70px;
+  }
+  .send button:hover {
+     background-color:  rgb(0, 110, 255);
+  }
+  .message{
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .message .messageContent p{
+      background-color:#8da4f1;
+      color: white;
+      border-radius: 10px 0px 10px 10px ;
+  }
+  
+  .owner{
+      display: flex;
+      gap: 20px;
+      margin-bottom: 20px; 
+  }
+  
+  .message {
+      flex-direction: row-reverse;
+  }
+  
+  .message.owner .messageContent{
+      align-items: flex-end;
+  }
+  
+  .owner .messageContent p{
+      background-color:#f4f7ff;
+      color: rgb(217, 27, 27);
+      border-radius: 10px 0px 10px 10px ;
+  }
+  
+  
+  .messageInfo{
+      display: flex;
+      flex-direction: column;
+      color: gray;
+      font-weight: 300;
+  }
+  
+  .messageInfo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      object-fit: cover;
+  }
+  .messageContent img{
+     width: 50%;
+     height: 130px;
+  }
+  
+  .messageContent {
+      max-width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .messageContent p {
+      background-color: white;
+      padding: 10px 20px ;
+      border-radius: 0 10px 10px 10px ;
+      max-width: max-content;
+  }
+  .clicked {
+      background-color:#77cee9;
+      border-radius: 5px;
+  }
+  .bberryyggsaid ,.Adddrendstyle {
+      width: 100%;
+      height: 100%;
+      overflow: scroll;
+  }
+  /* Media query for screens with a maximum width of 810 pixels */
+  @media screen and (max-width: 934px) {
+       
+      * {
+          box-sizing: content-box !important;
+        }
+      .home {
+           
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  
+      .container {
+          flex-direction: column;
+      }
+  
+      .logo {
+          width: 100%;
+          font-weight: bold;
+          font-size: 21px;
+          font-family: 'Courier New', Courier, monospace;
+          background-color: #36c6f6;
+          color: black;
+      }
+  
+      .Allfreind {
+          font-size: 24px;
+          height: auto;
+          padding: 10px;
+          text-align: center;
+      }
+  
+      .navbar {
+          flex-direction: column;
+          align-items: stretch;
+          text-align: center;
+      }
+  
+      .navbar img {
+          margin-bottom: 10px;
+      }
+  
+      .userChat img {
+          width: 30px;
+          height: 30px;
+      }
+  
+      .messageContent img {
+          width: 100%;
+          height: auto;
+      }
+  
+      .messageContent p {
+          padding: 10px;
+      }
+  
+      .input {
+          flex-direction: column;
+          align-items: stretch;
+      }
+  
+      .input input {
+          margin-bottom: 10px;
+          margin-top: 4px;
+      }
+  
+      .Sidebar {
+          flex: 1;
+          height: 4OOpx;
+          width: 100%; 
+      }
+  
+      .bberryyggsaid  {
+          width: 100%;
+          height: 208px;
+          overflow: scroll;
+      }
+  
+      .user {
+          margin-top: -50px;
+          color: white;
+          font-size: large;
+      }
+  
+      .userbutton {
+          margin-top: 8.5px;
+          margin-left: auto;
+          font-size: 20px;
+      }
+  
+      .userChat {
+          padding: 10px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+  
+      .clicked {
+          background-color: rgb(25, 179, 1);
+          border-radius: 5px;
+      }
+  
+      .messages {
+          background-color: #ddddf7;
+          padding: 10px;
+          height: calc(100% - 160px);
+          overflow-y: scroll;
+          height: 252px;
+      }
+  
+      .send button {
+          border: none;
+          padding: 10px 15px;
+          color: #ddddf7;
+          background-color: blueviolet;
+          border-radius: 3px;
+          margin-top: -50px;
+      }
+      .send button:hover {
+          background-color:  blue;
+       }
+      .send {
+          display: flex;
+          justify-content: flex-start;
+          
+          margin-left: auto;
+      }
+  
+      .sendfile {
+          margin-left: auto;
+      }
+  
+      .navbar button {
+          background-color: blueviolet;
+          color: aliceblue;
+          font-size: 15px;
+          border: none;
+          top: 2px;
+          cursor: pointer;
+          margin-left: auto;
+      }
+  
+      .marchall {
+          margin-left: 87px;
+      }
+  
+      .chat {
+          flex: 2;
+          background-color: antiquewhite;
+         
+         
+      }
+  
+      .AddFriend {
+          background-color: #8da4f1;
+        
+          
+      }
+      .Adddrendstyle {
+          width: 100%;
+          height: 208px;
+          overflow: scroll;
+      }
+  }
+  
+  @media screen and (max-width: 376px) {
+      .marchall {
+          display: none;
+      }
+  
+      .logo::before {
+          content: "MS ";
+          margin-left: 79px;
+      }
+  
+      
+  
+           
+      }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

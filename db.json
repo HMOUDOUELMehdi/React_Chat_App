@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "name": "Mehdi",
+      "email": "kobomozan@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/1.png",
+      "id": 1,
+      "freinds": [
+        {
+          "id": 2,
+          "name": "walid",
+          "avatar": "src/Main pages/Avatars/2.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Said",
+          "avatar": "src/Main pages/Avatars/5.jpg"
+        }
+      ]
+    },
+    {
+      "name": "walid",
+      "email": "mehdiahmoudou2@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/2.jpg",
+      "freinds": [
+        {
+          "id": 1,
+          "name": "Mehdi",
+          "avatar": "src/Main pages/Avatars/1.png"
+        },
+        {
+          "id": 4,
+          "name": "ayoup",
+          "avatar": "src/Main pages/Avatars/8.jpg"
+        },
+        {
+          "id": 3,
+          "name": "mohamed",
+          "avatar": "src/Main pages/Avatars/3.jpeg"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "mohamed",
+      "email": "hmwdwmhdy@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/3.jpeg",
+      "freinds": [],
+      "id": 3
+    },
+    {
+      "name": "ayoup",
+      "email": "Badrhh@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/8.jpg",
+      "freinds": [
+        {
+          "id": 1,
+          "name": "Mehdi",
+          "avatar": "src/Main pages/Avatars/1.png"
+        },
+        {
+          "id": 2,
+          "name": "walid",
+          "avatar": "src/Main pages/Avatars/2.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Said",
+          "avatar": "src/Main pages/Avatars/5.jpg"
+        },
+        {
+          "id": 3,
+          "name": "mohamed",
+          "avatar": "src/Main pages/Avatars/3.jpeg"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Said",
+      "email": "mehdiahmoudou@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/5.jpg",
+      "freinds": [
+        {
+          "id": 1,
+          "name": "Mehdi",
+          "avatar": "src/Main pages/Avatars/1.png"
+        },
+        {
+          "id": 4,
+          "name": "ayoup",
+          "avatar": "src/Main pages/Avatars/8.jpg"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "messages": [
+    {
+      "sender": 1,
+      "receiver": 2,
+      "text": "hello walid",
+      "timestamp": "2023-12-24T16:49:26.445Z",
+      "id": 1
+    },
+    {
+      "sender": 1,
+      "receiver": 2,
+      "text": "how are u",
+      "timestamp": "2023-12-24T16:49:37.909Z",
+      "id": 2
+    },
+    {
+      "sender": 1,
+      "receiver": 5,
+      "text": "bonjour mr.said",
+      "timestamp": "2023-12-24T16:50:11.580Z",
+      "id": 3
+    },
+    {
+      "sender": 1,
+      "receiver": 2,
+      "text": "this message for all",
+      "timestamp": "2023-12-24T16:50:21.012Z",
+      "id": 4
+    },
+    {
+      "sender": 1,
+      "receiver": 5,
+      "text": "this message for all",
+      "timestamp": "2023-12-24T16:50:21.012Z",
+      "id": 5
+    },
+    {
+      "sender": 2,
+      "receiver": 1,
+      "text": "i good ",
+      "timestamp": "2023-12-24T16:50:59.445Z",
+      "id": 6
+    },
+    {
+      "sender": 2,
+      "receiver": 1,
+      "text": "how are u",
+      "timestamp": "2023-12-24T16:51:08.133Z",
+      "id": 7
+    },
+    {
+      "sender": 2,
+      "receiver": 4,
+      "text": "hello",
+      "timestamp": "2023-12-24T16:51:14.485Z",
+      "id": 8
+    },
+    {
+      "sender": 5,
+      "receiver": 4,
+      "text": "hello",
+      "timestamp": "2023-12-24T16:51:45.773Z",
+      "id": 9
+    },
+    {
+      "sender": 4,
+      "receiver": 5,
+      "text": "wa fin",
+      "timestamp": "2023-12-24T16:52:39.621Z",
+      "id": 11
+    },
+    {
+      "sender": 4,
+      "receiver": 3,
+      "text": "fin",
+      "timestamp": "2023-12-24T16:56:56.453Z",
+      "id": 12
+    },
+    {
+      "sender": 4,
+      "receiver": 2,
+      "text": "wa fin",
+      "timestamp": "2023-12-25T21:10:22.703Z",
+      "id": 13
+    },
+    {
+      "sender": 2,
+      "receiver": 1,
+      "text": "hi",
+      "timestamp": "2024-01-03T21:58:57.194Z",
+      "id": 14
+    }
+  ],
+  "currentuser": [
+    {
+      "name": "walid",
+      "email": "mehdiahmoudou2@gmail.com",
+      "password": "Mehdi@2004",
+      "avatar": "src/Main pages/Avatars/2.jpg",
+      "freinds": [
+        {
+          "id": 1,
+          "name": "Mehdi",
+          "avatar": "src/Main pages/Avatars/1.png"
+        },
+        {
+          "id": 4,
+          "name": "ayoup",
+          "avatar": "src/Main pages/Avatars/8.jpg"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+/* style.module.css/login */
+.bgVideo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.loginContainer{
+ 
+ 
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+ 
+
+}
+
+.restContainer{
+ 
+ 
+
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+ 
+ 
+}
+/* style.module.css */
+.formContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  position: absolute;
+ 
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  
+}
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #c2f704;
+  }
+  p h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #c2f704;  
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* style.module.css/regestrer */
+  .forContainer {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  position: absolute;
+ width: 400px;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  }
+  @media screen and (max-width: 1070px) {
+    .bgVideo {
+      display: none;
+    }
+    .loginContainer{
+      background-image: url('./logRebacground/cccc.jpg');
+      background-size: cover; /* Ajustez selon vos besoins */
+      background-position: center center;  
+      background-repeat: no-repeat;
+      height: 90vh;
+      border-radius: 5px;
+    }
+    .formContainer{
+
+      width:  auto;
+      
+      padding: 20px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+       
+    }
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .restContainer{
+      background-image: url('./logRebacground/rege.jpg');
+      background-size: cover; /* Ajustez selon vos besoins */
+      background-position: center center;  
+      background-repeat: no-repeat;
+      height:90vh;  
+      border-radius: 5px;
+    
+  } 
+
+}
+  

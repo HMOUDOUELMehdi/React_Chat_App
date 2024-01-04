@@ -1,0 +1,138 @@
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Masthead Section */
+.masthead {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bgVideo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.mastheadContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fstItalic {
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: bold;
+    margin-bottom: 100px;
+  color: orange;
+}
+
+.mb5 {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+  color: azure;
+}
+
+.marchalSpan {
+  color: #14fd03;
+  font-size: 1.9rem;
+  
+}
+
+/* style.module.css */
+
+/* ... Autres styles ... */
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around; /* Ajustez selon vos préférences */
+}
+
+.btn {
+  font-size: 1.5rem;
+  width: 300px;
+  margin: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgb(17, 0, 255);
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ 
+
+/* ... Autres styles ... */
+
+
+.btn:hover {
+  background-color: #ff8c00;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 960px) {
+  .bgVideo{
+    display: none;
+  }
+  .masthead{
+    border-radius: 5px;
+    background-image: url('./assets/mp4/unter.jpg');
+    background-size: cover; /* Ajustez selon vos besoins */
+    background-position: center center;  
+    background-repeat: no-repeat;
+    height: 50vh;  
+  
+} 
+  .fstItalic {
+    font-size: 2rem;
+ 
+  }
+
+  .mb5 {
+    font-size: 1.5rem;
+ margin-top: -60px;
+   
+  }
+
+  .btn {
+    font-size: 1rem;
+    width: 100px;
+    margin-top: 50px;
+  }
+  .mastheadContent{
+    position: relative;
+     
+    text-align: center;
+    color: #fff;
+  
+}
+}
