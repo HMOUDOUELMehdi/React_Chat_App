@@ -1,12 +1,26 @@
 ## Technologies
-# - React
-# - React Router
-# - Styled-Components
-# - SweetAlert2
-# - JSON Server
+ - React
+ - React Router
+ - Styled-Components
+ - SweetAlert2
+ - JSON Server
 
 ## UML Diagrams
 
-## Class Diagram
+# Class Diagram
 
-![Class Diagram]("https://github.com/HMOUDOUELMehdi/React_Chat_App/assets/155494764/6cc08181-41d0-47a9-9499-b0276792f3b8")
+![Class Diagram]("./diagrams/class.png")
+
+# Use Case Diagram
+
+![Use Case Diagram]("./diagrams/cas.png")
+
+# Sequence Diagram
+
+![Sequence Diagram]("./diagrams/sequences.png")
+
+## App UI
+
+# Conversation Page
+
+![conversation Page]("./App_imgs/chat.png")
