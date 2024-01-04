@@ -1,8 +1,12 @@
-# React + Vite
+## Technologies
+# - React
+# - React Router
+# - Styled-Components
+# - SweetAlert2
+# - JSON Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## UML Diagrams
 
-Currently, two official plugins are available:
+## Class Diagram
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Class Diagram]("https://github.com/HMOUDOUELMehdi/React_Chat_App/assets/155494764/6cc08181-41d0-47a9-9499-b0276792f3b8")
