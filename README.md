@@ -1,26 +1,26 @@
-## Technologies
+# Technologies
  - React
  - React Router
  - Styled-Components
  - SweetAlert2
  - JSON Server
 
-## UML Diagrams
+# UML Diagrams
 
-# Class Diagram
+## Class Diagram
 
-![Class Diagram]("./diagrams/class.png")
+![Class Diagram]("diagrams/class.png")
 
-# Use Case Diagram
+## Use Case Diagram
 
-![Use Case Diagram]("./diagrams/cas.png")
+![Use Case Diagram]("diagrams/cas.png")
 
-# Sequence Diagram
+## Sequence Diagram
 
-![Sequence Diagram]("./diagrams/sequences.png")
+![Sequence Diagram]("diagrams/sequences.png")
 
-## App UI
+# App UI
 
-# Conversation Page
+## Conversation Page
 
-![conversation Page]("./App_imgs/chat.png")
+![conversation Page]("App_imgs/chat.png")
